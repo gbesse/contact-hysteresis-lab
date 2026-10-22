@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Comparer détecteurs de contact à hystérésis sous bruit et rebonds', 'en': 'Compare hysteresis contact detectors under noise and bounce', 'es': 'Comparar detectores de contacto con histéresis bajo ruido y rebotes'}

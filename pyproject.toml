@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contact-hysteresis-lab"
+version = "0.1.0a1"
+description = "FR: Comparer détecteurs de contact à hystérésis sous bruit et rebonds | EN: Compare hysteresis contact detectors under noise and bounce | ES: Comparar detectores de contacto con histéresis bajo ruido y rebotes"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+contact-hysteresis-lab = "contact_hysteresis_lab.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["contact_hysteresis_lab*"]

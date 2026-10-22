@@ -1,0 +1,33 @@
+{
+  "release_threshold": 2,
+  "engage_threshold": 5,
+  "engage_duration": 0.2,
+  "release_duration": 0.1,
+  "samples": [
+    {
+      "time": 0,
+      "force": 0
+    },
+    {
+      "time": 0.1,
+      "force": 6
+    },
+    {
+      "time": 0.15,
+      "force": 0
+    },
+    {
+      "time": 0.2,
+      "force": 7
+    },
+    {
+      "time": 0.5,
+      "force": 6
+    },
+    {
+      "time": 0.7,
+      "force": 1
+    }
+  ],
+  "until": 1
+}
